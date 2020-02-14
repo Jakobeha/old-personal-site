@@ -1,0 +1,9 @@
+# VS Code
+.vscode
+.history
+
+# Cabal
+dist-newstyle
+
+# Hakyll
+site
