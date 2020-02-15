@@ -42,8 +42,8 @@ I graduated with a Bachelor's degree in Computer Science and a GPA of
    how networks and distributed systems work: the ISO-OSI stack, and
    examples of layer implementations / protocols / distributed systems
    used in practice (e.g. Ethernet, TCP, Paxos, HTTP)
--  **CS4410 Compilers**: Followed *`Modern Compiler Implementation in
-   ML <https://www.amazon.com/Modern-Compiler-Implementation-Andrew-Appel-ebook/dp/B00D2WQAE8>`__*
+-  **CS4410 Compilers**: Followed `*Modern Compiler Implementation in
+   ML* <https://www.amazon.com/Modern-Compiler-Implementation-Andrew-Appel-ebook/dp/B00D2WQAE8>`__
    and built a Tiger compiler to MIPS (lexer, parser, static semantics,
    IR generator, assembler, liveness / dataflow analysis, register
    allocation with coalescing)
@@ -82,8 +82,8 @@ Brains <https://arxiv.org/abs/1907.05118>`__. It describes the
 challenges of implementing a JIT compiler with static analysis in R,
 mainly because of laziness and first-class environments.
 
-PRL@PRG Internship: January 2020 - June 2020 (pending)
-------------------------------------------------------
+PRL\@PRG Internship: January 2020 - June 2020 (pending)
+-------------------------------------------------------
 
 I'm currently a assistant researcher at the
 `PRL@PRG <https://prl-prg.github.io/>`__ lab in Prague, supervised by

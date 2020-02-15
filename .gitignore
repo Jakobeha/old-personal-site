@@ -6,4 +6,5 @@
 dist-newstyle
 
 # Hakyll
-site
+_cache
+_site

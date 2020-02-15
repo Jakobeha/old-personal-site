@@ -8,21 +8,21 @@ import           Hakyll
 main :: IO ()
 main = hakyll $ do
     match "images/*" $ do
-        route   idRoute
+        route idRoute
         compile copyFileCompiler
 
     match "css/*" $ do
-        route   idRoute
+        route idRoute
         compile compressCssCompiler
 
     match "sections/*.rst" $ do
-        route   $ setExtension "html"
+        routeSection $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
             >>= relativizeUrls
 
     match "sections/posts/*" $ do
-        route $ setExtension "html"
+        routeSection $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/post.html"    postCtx
             >>= loadAndApplyTemplate "templates/default.html" postCtx
@@ -43,8 +43,8 @@ main = hakyll $ do
                 >>= relativizeUrls
 
 
-    match "index.html" $ do
-        route idRoute
+    match "sections/index.html" $ do
+        routeSection idRoute
         compile $ do
             posts <- recentFirst =<< loadAll "sections/posts/*"
             let indexCtx =
@@ -61,6 +61,9 @@ main = hakyll $ do
 
 
 --------------------------------------------------------------------------------
+routeSection :: Routes -> Rules ()
+routeSection routes = route $ gsubRoute "sections/" (const "") `composeRoutes` routes
+
 postCtx :: Context String
 postCtx =
     dateField "date" "%B %e, %Y" `mappend`
