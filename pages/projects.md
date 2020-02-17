@@ -14,4 +14,4 @@ descriptions / source code.
 - **Descript ([v1 (Haskell)](https://bitbucket.org/jakobeha/descript-lang/src/master/) and [v2 (OCaml)](https://bitbucket.org/jakobeha/descript-ocaml/src/master/))** - side project: A language designed to refactor itself. Descript programs can be applied to other source files, transforming them in-place
 
 And of course, there is [this
-website](https://github.com/Jakobeha/jakobeha-website).
+website](https://github.com/Jakobeha/jakobeha.github.io/tree/develop).
