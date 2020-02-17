@@ -139,3 +139,19 @@ article .header {
     font-size: 1.8rem;
   }
 }
+
+.index-body {
+  overflow: auto;
+}
+
+.index-me {
+  float: right;
+}
+
+.index-links {
+  float: left;
+}
+
+.index-links a {
+  display: block;
+}
