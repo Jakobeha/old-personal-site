@@ -6,7 +6,7 @@ import           System.FilePath
 
 --------------------------------------------------------------------------------
 main :: IO ()
-main = hakyll $ do
+main = hakyllWith configuration $ do
     match "resources/images/*" $ do
         route idRoute
         compile copyFileCompiler
@@ -30,6 +30,9 @@ main = hakyll $ do
 
 
 --------------------------------------------------------------------------------
+configuration :: Configuation
+configuration = defaultConfiguration { deployCommand = "./deploy.sh" }
+
 pageContext :: Context String
 pageContext = mconcat
     [ listField

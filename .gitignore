@@ -5,6 +5,9 @@
 # Cabal
 dist-newstyle
 
+# Stack
+.stack-work
+
 # Hakyll
 _cache
 _site
