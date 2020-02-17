@@ -3,7 +3,7 @@ version:            0.1.0.0
 build-type:         Simple
 cabal-version:      >= 1.10
 homepage:           https://github.com/jakobeha/jakobeha-website
-license:            BSD-3-Clause
+license:            BSD3
 license-file:       LICENSE
 author:             jakob
 maintainer:         jakobeha@gmail.com

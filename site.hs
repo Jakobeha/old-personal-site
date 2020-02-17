@@ -30,7 +30,7 @@ main = hakyllWith configuration $ do
 
 
 --------------------------------------------------------------------------------
-configuration :: Configuation
+configuration :: Configuration
 configuration = defaultConfiguration { deployCommand = "./deploy.sh" }
 
 pageContext :: Context String
