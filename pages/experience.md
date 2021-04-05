@@ -23,7 +23,7 @@ I graduated with a Bachelor's degree in Computer Science and a GPA of 3.877 / 4.
 - **CS4200 Networks and Distributed Systems**: High-level overview of how networks and distributed systems work: the ISO-OSI stack, and examples of layer implementations / protocols / distributed systems used in practice (e.g. Ethernet, TCP, Paxos, HTTP)
 - **CS4410 Compilers**: Followed *[Modern Compiler Implementation in ML](https://www.amazon.com/Modern-Compiler-Implementation-Andrew-Appel-ebook/dp/B00D2WQAE8)* and built a Tiger compiler to MIPS: lexer, parser, static semantics, IR generator, assembler, liveness / dataflow analysis, register allocation with coalescing
 
-I also attended hackathons and clubs, and presented a poster at [RISE](https://www.northeastern.edu/rise/) (a small University expo) on a side project, [**TreeScript**](https://github.com/jakobeha/treescript).
+I also attended hackathons and clubs, and presented a poster at [RISE](https://www.northeastern.edu/rise/) (a small University expo) on a side project: [**TreeScript**](https://github.com/jakobeha/treescript), a programming language that rewrites syntax of other languages.
 
 ### NuPRL
 
@@ -44,7 +44,7 @@ I was a assistant researcher at the [<PRL@PRG>](https://prl-prg.github.io/) lab 
 
 ## Purdue Graduate School
 
-Currently, I am attending Purdue University of Indiana, supervised by [Ben Delaware](https://www.cs.purdue.edu/homes/bendy/). I am taking:
+Currently, I am attending Purdue University of Indiana. As of spring 2021 I have taken:
 
-- CS510 Software Engineering
-- CS584 Theory
+- **CS510 Software Engineering:** Software engineering focused on machine learning to automate bug detection
+- **CS584 Theory:** Turing machines, complexity classes, and basic quantum computing

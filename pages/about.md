@@ -2,7 +2,7 @@
 title: About
 ---
 
-I'm a first-year PhD student at Purdue University in Indiana, supervised by [Ben Delaware](https://www.cs.purdue.edu/homes/bendy/). I'm interested in the fields of programming languages and software engineering. My goal is to use programming language research to help people create digital content.
+Hello, I'm a first-year PhD student at Purdue University in Indiana. I have experience with compiler development and software engineering. My goal is to create software to help other people create digital media.
 
 ## Contact
 
